@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header: representa a seção de cabeçalho da página ou de um artigo. Geralmente contém o título, logo e elementos de navegação.-->
+
+<header>
+    <h1>Aprendendo HTML Semântico</h1>
+
+    <!--Nav: Define a área de navegação principal do site , como menus e links que direcionam para outras partes do conteúdo.-->
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Introdução</a>
+            </li>
+            <li>
+                <a href="#">Benefícios</a>
+            </li>
+            <li>
+                <a href="#">Conteúdo Principal</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main: representa o conteúdo principal da página, diferenciando do conteúdo comum ou dos elementos repetitivos, como barreiras lateriais.-->
+
+<main id="main-content">
+
+    <!--Áreas - seções-->
+    <section id="introduction"> <!-- Section: agrupa o conteúdo relacionado dentro da página, como seções de um artigo. Pode conter subtítulos e ajudar a organizar conteúdo.-->
+        <h2>O que é HTML Semântico?</h2>
+        <p>
+            HTML semântico é uma abordagem de desenvolvimento web que busca estruturar o conteúdo de uma página de forma significativa, utilizando os elementos semânticos do HTML.
+            Isso significa utilizar cada tag de acordo com a sua finalidade, deixando o código mais organizado e de fácil manutenção.
+            Além disso, essa abordagem traz benefícios como melhor acessibilidade, melhor indexação pelos motores de busca e melhor experiência do usuário.
+        </p>
+    </section>
+
+<!-- Article: representa um conteúdo independente, como uma postagem de blog, artigo de notícia ou uma entrada de forúm. Ideal para conteúdos que podem ser republicados.-->
+
+ <article id="benefits">
+    <h2>Benefícios do HTML Semântico.</h2>
+    <p>Usar HTML Semântico é muito bom...</p>
+    <a href="#">Ler conteúdo</a>
+ </article>
+
+ <section>
+    <h3>Exemplos de HTML Semântico</h3>
+    <ul>
+        <li>Exemplo 1</li>
+        <a href=""></a>
+        <li>Exemplo 2</li>
+        <li>Exemplo 3</li>
+    </ul>
+ </section>
+
+ <!-- Aside: Usado para mostrar conteúdo relacionado, como uma barra lateral com links, anúncios ou citações.-->
+
+ <aside id="extra">
+    <h4>Curiosidade</h4>
+    <p>
+
+    </p>
+ </aside>
+
+ <!-- Figure: serve para agrupar elementos de mídia, como imagens, gráficos, diagramas ou qualquer outro conteúdo visual, juntamente com suas legendas.-->
+
+ <figure>
+    <img src="https://devsfullstack.com/wp-content/uploads/2024/04/HTML-semantico-1-1024x576.png" alt="Imagem representando mãos codificando.">
+    <figcaption>HTML Semântico</figcaption>
+ </figure>
+
+ <!-- Details:  define o widget de divulgação.-->
+
+ <details>
+    <summary>O que é HTML Semântico?</summary>
+    <p>
+
+    </p>
+ </details>
+</main>
+
+<!-- Footer: define o rodapé de uma página ou seção. Geralmente contendo infomações de copyright, limks para políticas e informações adicionais.-->
+ <footer id="conclusion">
+    <p>Modelo de site em HTML Semântico para fins de estudo (2025.1).</p>
+ </footer>
+</body>
+</html>
