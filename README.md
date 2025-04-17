@@ -1,6 +1,6 @@
 ## HTML Semântico ##
 
-<p>Modelo de website com o tema 'HTML Semântico' desenvolvido em HTML5 e CSS.</p>
+<p>Modelo de website com o tema 'HTML Semântico' desenvolvido em HTML e CSS.</p>
 
 
 ![img1](https://github.com/user-attachments/assets/ad2275c3-d025-4ffd-9497-af292f390a0b)
